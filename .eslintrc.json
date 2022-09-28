@@ -1,7 +1,15 @@
 {
-  "extends": "@rocketseat/eslint-config/react",
+  "extends": [
+    "@rocketseat/eslint-config/react",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ]
 
-  "rules": {
-    "no-unused-vars": "warn"
-  }
+  // "rules": {
+  //   "no-unused-vars": "off",
+  //   "@typescript-eslint/no-unused-vars": "error",
+  //   "no-shadow": "off",
+  //   "@typescript-eslint/no-shadow": ["error"]
+  // }
 }
